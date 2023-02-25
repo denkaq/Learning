@@ -1,5 +1,4 @@
 ### Learning Repository
-====================
 
 Welcome to my personal education repository! This repository is intended to be a central hub for all of my educational materials, including courses, certificates, training, and code projects.
 
