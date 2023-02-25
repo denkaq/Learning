@@ -7,10 +7,7 @@
  */
 function human_readable(int $seconds): string
 {
-    $hourses = $seconds / 3600;
-    $minutes = $seconds / 60 % 60;
-    $seconds = $seconds % 60;
-    return formatTime($hourses / 3600) . ':' . formatTime($minutes / 60 % 60) . ':' . formatTime($seconds % 60);
+    return formatTime($seconds / 3600) . ':' . formatTime($seconds / 60 % 60) . ':' . formatTime($seconds % 60);
 }
 
 /**
