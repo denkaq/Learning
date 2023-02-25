@@ -13,7 +13,7 @@ function nbYear(int $p0, float $percent, int $aug, int $p): int
     $currentYear = 0;
     $percent /= 100;
     while ($p0 < $p) {
-        $p0 += ceil($p0 * $percent + $aug);
+        $p0 += intval($p0 * $percent + $aug);
         $currentYear++;
     }
 
