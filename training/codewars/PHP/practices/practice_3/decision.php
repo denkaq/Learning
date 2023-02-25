@@ -19,3 +19,6 @@ function nbYear(int $p0, float $percent, int $aug, int $p): int
 
     return $currentYear;
 }
+
+// Using this function
+echo nbYear(1000, 2, 50, 1214); // Output: 4
